@@ -46,8 +46,8 @@ Requer **CMake ≥ 3.15** e um compilador C11 (GCC, Clang ou MSVC).
 ```bash
 git clone <url-do-repositorio> ctinylogger
 cd ctinylogger
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build
+cmake -S . -B build
+cmake --build build --config Release
 ```
 
 Isso gera:
